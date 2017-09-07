@@ -209,3 +209,44 @@ quiz = solution()
 print(quiz.findthetarget(A,B))
 print(C)
 '''''''''
+
+
+''' 反转字符 '''
+'''
+def reverse(x):
+    x=int(x)
+    if x>0:
+        x=str(x)
+        x=x[::-1]
+        x=int(x)
+    else:
+        x=x*-1
+        x=str(x)
+        x=x[::-1]#这是extended slice语法。它通过做[begin:end:step] – 通过离开开始和结束并指定-1的步骤，它反转一个字符串。
+        x=int(x)
+        x=x*-1
+    return x
+print(reverse(input()))
+'''
+
+'''递归函数'''
+'''
+def factorial(n):
+    if n == 1:
+        return 1
+    return n*factorial(n-1)
+
+print(factorial(500))
+'''
+
+
+'''1.Given an array of integers, every element appears twice except
+for one. Find that single one.'''
+'''
+list1=[1,1,3,3,6,8,4,6,8]
+def solution(A):
+    for i in A:
+        if A.count(i) == 1:
+            print(i)
+solution(list1)
+'''
