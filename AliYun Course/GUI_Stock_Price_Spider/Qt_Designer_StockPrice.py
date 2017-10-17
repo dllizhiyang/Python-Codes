@@ -38,7 +38,7 @@ class stockPrice:
 
         LGPrice = Soup_2.find('dl',attrs={'class':'blind'})
 
-        print('%s: %s'%(y,LGPrice.get_text()))
+        print('%s: %s'%(LGPrice.get_text()))
         print(type(LGPrice))
 
 
