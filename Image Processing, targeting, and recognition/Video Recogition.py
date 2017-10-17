@@ -3,7 +3,9 @@
 import cv2
 
 # load the video
-camera = cv2.VideoCapture('E:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
+#camera = cv2.VideoCapture('E:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
+camera = cv2.VideoCapture('D:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
+
 
 # keep looping
 while True:
@@ -48,7 +50,7 @@ while True:
 			# compute whether or not the width and height, solidity, and aspect ratio of the contour falls within appropriate bounds
 			keepDims = w > 25 and h > 25
 			keepSolidity = solidity > 0.9
-			keepAspectRatio = aspectRatio >= 0.3 and aspectRatio <= 1.9
+			keepAspectRatio = aspectRatio >= 0.8 and aspectRatio <= 1.9
 
 
 			# ensure that the contour passes all our tests
