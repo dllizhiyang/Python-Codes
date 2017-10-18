@@ -71,7 +71,7 @@ while True:
 
 
 	# draw the status text on the frame
-	cv2.putText(frame, status, (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5,(0, 0, 255), 2)
+	#cv2.putText(frame, status, (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5,(0, 0, 255), 2)
 
 
 	# show the frame and record if a key is pressed
