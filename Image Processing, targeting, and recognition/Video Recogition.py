@@ -75,8 +75,9 @@ while True:
 
 
 	# show the frame and record if a key is pressed
+	#########  Main()  ################
 	cv2.imshow("Frame", frame)
-	key = cv2.waitKey(1) & 0xFF
+	key = cv2.waitKey(25) & 0xFF   # waitKey control the playback speed
 
 	if key == ord(" "):
 		key = cv2.waitKey(0)
