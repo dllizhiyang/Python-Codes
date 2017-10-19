@@ -3,8 +3,8 @@
 import cv2
 
 # load the video
-#camera = cv2.VideoCapture('E:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
-camera = cv2.VideoCapture('D:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
+camera = cv2.VideoCapture('E:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
+#camera = cv2.VideoCapture('D:\Dropbox\Python Codes\onGitHub\Image Processing, targeting, and recognition\LabDemo.mp4')
 
 
 # keep looping
